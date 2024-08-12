@@ -1,0 +1,12 @@
+.card-hero {
+    width: 32.357247437774525vw;
+    height: 66vh;
+    background-color: rgb(25, 148, 255,0.12);
+}
+.card-hero>.card-hero-img{
+    position: relative;
+    width: 30.67vw;
+    height: 49.7vh;
+    object-fit: contain;   
+    top: 23.68%;
+}

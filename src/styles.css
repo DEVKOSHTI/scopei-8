@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100vh;
+    /* Ensure the body and html take up the full viewport height */
+    width: 100%;
+    /* Ensure the body and html take up the full viewport width */
+    margin: 0;
+    padding: 0;
+}

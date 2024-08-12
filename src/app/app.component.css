@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: radial-gradient(circle 42.28vh at 9.04vw 65.37vh , #0054B3 -150%, transparent 230%), radial-gradient( circle 42.28vh at 77.04vw 25.37vh, #0054AA -100%,transparent 230%);
+    /* Ensure the container takes full height of its parent */
+    width: 100%;
+    /* Ensure the container takes full width of its parent */
+}
