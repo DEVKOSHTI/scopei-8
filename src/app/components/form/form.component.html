@@ -5,27 +5,27 @@
         <app-input-field placeholderText="Enter full name" name="Enter Email ID" inputType="Email" ></app-input-field>
         <p class="or">(OR)</p>
         <app-input-field placeholderText="91+ " name="Enter Mobile No." inputType="tel" ></app-input-field>
-        <app-button>Next</app-button>
+        <app-button (click)='goToNextStep()'>Next</app-button>
     </form>
     <form *ngIf="step==1">
         <!-- Form fields for login -->
         <H1>Welcome Back, {{name}}!</H1>
         <app-input-field placeholderText="Loremipsum@gmail.com" name="Enter Email ID"></app-input-field>
         <app-input-field placeholderText="Password" name="Enter Password" inputType="Password"></app-input-field>
-        <app-button>Next</app-button>
+        <app-button (click)='goToNextStep()'>Next</app-button>
     </form>
-    <form *ngIf="step==1">
+    <form *ngIf="step==2">
         <!-- Form fields for SignUp step-1 -->
         <H1>Welcome Back, {{name}}!</H1>
         <app-input-field placeholderText="Loremipsum@gmail.com" name="Enter Email ID"></app-input-field>
         <app-input-field placeholderText="Password" name="Enter Password" inputType="Password"></app-input-field>
-        <app-button>Next</app-button>
+        <app-button (click)='goToNextStep()'>Next</app-button>
     </form>
-    <form *ngIf="step==1">
+    <form *ngIf="step==3">
         <!-- Form fields for SignUp step-2 -->
         <H1>Welcome Back, {{name}}!</H1>
         <app-input-field placeholderText="Loremipsum@gmail.com" name="Enter Email ID"></app-input-field>
         <app-input-field placeholderText="Password" name="Enter Password" inputType="Password"></app-input-field>
-        <app-button>Next</app-button>
+        <app-button (click)='goToNextStep()'>Next</app-button>
     </form>
 </div>

@@ -11,6 +11,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './form.component.css'
 })
 export class FormComponent {
+goToNextStep() {
+  if(this.step<3){
+    this.step+=1;
+  }
+}
 @Input() name:string='John';
 @Input() step:number=0;
 }
